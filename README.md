@@ -51,7 +51,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | 174.216.2.176 174.215.64.13  |
+| Jump Box | Yes                 | localhost IP                 |
 | Web1     | No                  | 104.42.107.83                |
 | Web2     | No                  | 104.42.107.83                |
 
