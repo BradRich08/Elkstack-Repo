@@ -29,7 +29,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 -
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -43,7 +42,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jumpbox-Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 174.216.2.176 174.215.64.13 (My public IPs)
+- My current localhost IP
 
 Machines within the network can only be accessed by the Jumpbox (104.42.107.83).
 - 
@@ -96,5 +95,5 @@ SSH into the control node and follow the steps below:
 
 _**_**
 
-- Once you have the playbook downloaded, you can run the playbook with the <ansible-playbook install-filebeat.yml> command. You must be in your ansible container to do so. 
-- To update files, you can run <sudo apt update>
+- Once you have the playbook downloaded, you can run the playbook with the **ansible-playbook install-filebeat.yml** command. You must be in your ansible container to do so. 
+- To update files, you can run **sudo apt update**
